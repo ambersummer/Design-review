@@ -1,2 +1,32 @@
 # Design-review
-Design review assistant markdown workspace files
+
+设计评审助手的本地工作区与记忆仓库。
+
+## 仓库内容
+
+- `AGENTS.md`：工作区规则与边界
+- `SOUL.md`：助手语气与评审风格
+- `USER.md`：用户信息与协作偏好
+- `MEMORY.md`：长期记忆与评审基线
+- `IDENTITY.md`：助手身份说明
+- `HEARTBEAT.md`：心跳与主动提醒策略
+- `memory/`：按日期记录的短期记忆
+
+## 目标
+
+这个仓库主要用于：
+
+1. 沉淀设计评审助手的身份设定与行为边界
+2. 保存设计评审相关的长期记忆与短期记录
+3. 支持后续持续维护与同步到 GitHub
+
+## 使用方式
+
+- 日常新增短期记录：写入 `memory/YYYY-MM-DD.md`
+- 稳定规则与偏好：更新 `MEMORY.md`
+- 调整助手风格：更新 `SOUL.md`
+- 调整工作边界：更新 `AGENTS.md`
+
+## 说明
+
+当前仓库以 Markdown 文件为主，适合作为设计评审助手的轻量配置与记忆存档。
